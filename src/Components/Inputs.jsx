@@ -22,7 +22,10 @@ export default function Inputs() {
             </div>
             <div className="row container">
                 <div className="col mt-2">
-                    <button className='btn btn-danger w-50'>Add Task</button>
+                    <div className='d-flex justify-content-center align-items-center'>
+                    <button className='btn btn-danger w-50 '>Add Task</button>
+
+                    </div>
                 </div>
             </div>
         </div>
