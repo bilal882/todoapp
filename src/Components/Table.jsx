@@ -12,6 +12,7 @@ export default function Table() {
                             <th>Title</th>
                             <th>Location</th>
                             <th>Description</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -20,12 +21,24 @@ export default function Table() {
                             <td>First Title</td>
                             <td>First Location</td>
                             <td>First Description</td>
+                            <td>
+                                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                                    <button type="button" class="btn btn-primary">Edit</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <th>2</th>
                             <td>Loading...</td>
                             <td>Loading...</td>
                             <td>Loading...</td>
+                            <td>
+                                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                                    <button type="button" class="btn btn-primary">Edit</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                </div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
