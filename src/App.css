@@ -1,8 +1,11 @@
-.bg-blue{
+.bg-blue {
   background-color: #042b64;
 }
-::selection{
-  color:yellow;
+::selection {
+  color: yellow;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 :root {
   --bs-blue: #0d6efd;
